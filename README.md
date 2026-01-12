@@ -3,7 +3,7 @@
 This project is a full-stack data engineering and business intelligence solution designed to integrate **TikTok Shop** operations with **Shopify** logistics. It automates the ingestion of raw order data, performs complex financial reconciliation, and delivers executive-level insights into profitability.
 
 ## Project Overview
-E-commerce brands operating on TikTok Shop often struggle with "hidden" costs—platform fees, influencer commissions, and marketing spend—that make calculating true net profit difficult. This system provides a "single source of truth" by integrating:
+E-commerce brands operating on TikTok Shop often struggle with "hidden" costs (platform fees, influencer commissions, and marketing spend) that make calculating true net profit difficult. This system provides a "single source of truth" by integrating:
 
 * **PostgreSQL Database:** A structured relational schema for data persistence and SKU mapping.
 * **Python Middleware:** A logic engine that handles financial calculations and protects sensitive credentials.
@@ -15,6 +15,8 @@ The Power BI dashboard focuses on three critical levels of business health:
 * **Executive Metrics:** Real-time tracking of Gross Merchandise Value (GMV), total marketing investment, and final Net Profit.
 * **The Net Profit Bridge:** A waterfall visualization mapping exactly how revenue moves from "Gross Sales" to "Take-Home" after deducting platform fees (6%), affiliate payouts, and ad costs.
 * **Revenue Attribution:** A channel mix analysis identifying the percentage of sales driven by the Affiliate program versus Organic brand reach.
+  
+![BI Dashboard](tiktok_shopify.png)
 
 ## Technical Implementation
 
